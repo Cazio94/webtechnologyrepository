@@ -309,7 +309,7 @@ table, th, td {
   width: 100%;
   background-color: black;
   opacity: 0.8;
-  overflow: overlay;
+  overflow: scroll;
   height: 223px;
   border-bottom-left-radius: 65px;
   border-bottom-right-radius: 65px;
@@ -490,20 +490,18 @@ footer {
   display: flex;
   margin: auto;
   width: 85%;
-  height: 370px;
 }
 
 .information-img {
   position: relative;
   width: 45%;
-  height: 505px;
 }
 
 .information-description {
   color: white;
   width: 55%;
-  overflow: scroll;
-  height: 365px;
+  overflow: auto;
+  height: 35%;
   position: relative;
   margin-left: 10px
 }
@@ -626,7 +624,4 @@ footer {
    .numberText img {
      height: ;
    }
-
-
-
 }
