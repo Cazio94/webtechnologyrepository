@@ -490,18 +490,20 @@ footer {
   display: flex;
   margin: auto;
   width: 85%;
+  height: 370px;
 }
 
 .information-img {
   position: relative;
   width: 45%;
+  height: 505px;
 }
 
 .information-description {
   color: white;
   width: 55%;
-  overflow: auto;
-  height: 35%;
+  overflow: scroll;
+  height: 365px;
   position: relative;
   margin-left: 10px
 }
